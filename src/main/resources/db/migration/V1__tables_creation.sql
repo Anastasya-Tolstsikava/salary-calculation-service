@@ -1,0 +1,31 @@
+----CREATE TABLE teams
+----(
+----    id      UUID       NOT NULL,
+----    name    VARCHAR    NOT NULL
+----);
+----
+----CREATE TABLE employees
+----(
+----    id               UUID       NOT NULL,
+----    salary_factor    DECIMAL    NOT NULL,
+----    team_id          UUID       NOT NULL,
+----    PRIMARY KEY (id),
+------    FOREIGN KEY (team_id) REFERENCES teams (id)
+----);
+--
+--
+--create table teams
+--(
+--id uuid not null,
+--name varchar(255),
+--primary key (id)
+--)
+--
+--create table employees
+--(
+--id uuid not null,
+--salary_factor float(53) not null,
+--team_id uuid,
+--primary key (id)
+--);
+--

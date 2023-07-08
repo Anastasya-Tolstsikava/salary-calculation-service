@@ -19,6 +19,9 @@ depending on the working time in minutes and salary factor.
   * Put Response Body from resources/workingHoursResponseMock.json
 ![img.png](img.png)
 
+### How to test
+Send a GET request ```localhost:8080/api/1.0/employees/A/salary?totalAmount=1000```
+
 ### Process diagram
 ![img_1.png](img_1.png)
 

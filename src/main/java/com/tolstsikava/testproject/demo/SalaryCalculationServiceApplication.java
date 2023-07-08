@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SalaryCalculationServiceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SalaryCalculationServiceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SalaryCalculationServiceApplication.class, args);
+    }
 
 }
